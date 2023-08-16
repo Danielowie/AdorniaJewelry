@@ -328,7 +328,7 @@ header{
 /* Featured Products */
 
 .FeaturedProducts{
-    margin: 25px 10px;
+    margin: 25px 40px;
 }
 
 .FeaturedProducts h1{
@@ -1528,7 +1528,9 @@ header{
     .banner3 {
         display: none;
         flex-direction: column;
-        
+    }
+    .newProducts{
+        margin: 25px 0px;
     }
     .newsletter {
         line-height: 25px;
