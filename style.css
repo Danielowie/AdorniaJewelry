@@ -157,7 +157,6 @@ header{
     flex-wrap: wrap;
     height: 9rem;
     width: 100%;
-    /* background: rgba(188, 204, 204, 0.748); */
     background: #1e2125;
     margin-top: 0.7rem;
 }
@@ -180,6 +179,7 @@ header{
     justify-content: center;
     align-items: center;
    font-size: 25px;
+   color: #ff832b;
 }
 
 .icon h3{
@@ -599,6 +599,8 @@ header{
 .footer2 p span{
     color: #dcb192;
 }
+
+
 /* Product page / Bracelets page,Ring page, chain page */
 
 .bracelet, .rings, .chain{
@@ -752,10 +754,10 @@ header{
 
 .blogBox h1{
     position: absolute;
-    top: -52px;
+    top: -54px;
     left: 0;
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 600;
     color: #c9cbce;
     z-index: -5;
 }
@@ -776,9 +778,6 @@ header{
     padding: 100px 100px;
 }
 
-.details{
-    /* border: 1px solid white; */
-}
 
 .contactDetails .details span{
     font-size: 28px;
@@ -862,6 +861,7 @@ header{
     padding: 12px;
     outline: none;
     margin-bottom: 20px;
+    color: white;
     background-color: #898c906b;
     border: 1px solid #898c906b;
 }
@@ -1315,9 +1315,6 @@ header{
 
 }
 
-
-
-
 @media (max-width: 418px) {
     header{
         height: 50px;
@@ -1534,7 +1531,6 @@ header{
     }
     .newProducts{
         margin: 25px 0px;
-        margin-right: 20px;
     }
     .newsletter {
         line-height: 25px;
@@ -1672,12 +1668,38 @@ header{
     text-align: center;
 }
 
+    .NewCollections{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin: 25px 50px; */
+    }
+
+    .FeaturedProducts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .newArrivals{
         margin-left: 0px;
     
     }
     .newProducts{
-        margin: 25px 0px;
-        margin-left: -23px;
+        margin-left: 0px;
     }
+
+    .blog1{
+        padding: 50px 120px 0 120px;
+    }
+
+    .blogBox {
+    padding-bottom: 30px;
+}
+     .blogBox h1 {
+        /* position: absolute; */
+        top: -23px;
+        font-size: 28px;
+        left: -80px;
+}
 }
