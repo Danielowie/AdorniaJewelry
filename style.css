@@ -1664,3 +1664,20 @@ header{
         margin-left: 5px;
     }
 }
+
+@media (max-width: 328px){
+
+    .welcome_note {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+    .newArrivals{
+        margin-left: 0px;
+    
+    }
+    .newProducts{
+        margin: 25px 0px;
+        margin-left: -23px;
+    }
+}
