@@ -1530,11 +1530,11 @@ header{
         flex-direction: column;
     }
     .newArrivals{
-        margin-right: 8px;
+        margin-right: 12px;
     }
     .newProducts{
         margin: 25px 0px;
-        margin-right: 8px;
+        margin-right: 12px;
     }
     .newsletter {
         line-height: 25px;
