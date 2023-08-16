@@ -344,7 +344,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 .newProducts #featuredPro:last-child{
@@ -1641,7 +1641,7 @@ header{
 
 
     .formcontainer .links {
-        padding: 20px 5px;
+        padding: 20px 0;
     }
 
     .formcontainer .links li p {
